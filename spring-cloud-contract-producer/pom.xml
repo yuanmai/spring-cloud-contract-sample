@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Edgware.SR1</spring-cloud.version>
+        <spring-cloud.version>Edgware.SR5</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -47,7 +47,7 @@
             <plugin>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-contract-maven-plugin</artifactId>
-                <version>1.2.2.RELEASE</version>
+                <version>1.2.6.RELEASE</version>
                 <extensions>true</extensions>
                 <configuration>
                     <baseClassForTests>com.baeldung.spring.cloud.springcloudcontractproducer.BaseTestClass
